@@ -66,6 +66,7 @@ import {
 	__experimentalUnitControl as UnitControl,
 } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
+import { useState } from '@wordpress/element';
 
 const PanelDescription = styled.div`
 	grid-column: span 2;
